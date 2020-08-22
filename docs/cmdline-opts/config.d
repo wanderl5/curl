@@ -36,8 +36,7 @@ the following places in this order:
 
 1) Use the CURL_HOME environment variable if set
 
-2) Use the XDG_CONFIG_HOME environment variable if set and .curlrc is present
-there
+2) Use the XDG_CONFIG_HOME environment variable if set (Added in 7.73.0)
 
 3) Use the HOME environment variable if set
 

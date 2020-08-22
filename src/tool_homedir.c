@@ -65,7 +65,7 @@ static char *GetEnv(const char *variable)
  * directory will it be returned as a "home directory".
  *
  * 1. use CURL_HOME if set
- * 2. use XDG_CONFIG_HOME if set and .curlrc is present
+ * 2. use XDG_CONFIG_HOME if set and fname is present
  * 3. use HOME if set
  * 4. Non-windows: use getpwuid
  * 5. Windows: use APPDATA if set
